@@ -1,0 +1,7 @@
+.body {
+    list-style: none;
+    background: #999999;
+    border: 1px dashed black;
+    margin: 1em;
+    padding: 0;
+}

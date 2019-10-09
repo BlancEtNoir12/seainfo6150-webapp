@@ -1,25 +1,21 @@
 import React from "react";
 import PropTypes from 'prop-types';
-import Button from './ArticleListItem';
+import Item from './ArticleListItem';
+import styles from './ArticleList.module.css'
 
 const ArticleList = props => {
-  return (
-    <ul>
-      {props.articles.map(article => (
-          <li key={article.slug}>
-              <h3>{article.title}</h3>
-              <p>{article.shortText}</p>
-              <time dateTime>
-                  {article.pubDate}
-                  <Button info={article} />
-              </time>
-          </li>
-      ))}
-    </ul>
-  );
+    return (
+        <ul className={styles.body}>
+            {props.articles.map(article => (
+                <li key={article.slug}>
+                    <Item article={article}></Item>
+                </li>
+            ))}
+        </ul>
+    );
 };
 
 ArticleList.propTypes = {
-  articles: PropTypes.array.isRequired
+    articles: PropTypes.array.isRequired
 };
 export default ArticleList;

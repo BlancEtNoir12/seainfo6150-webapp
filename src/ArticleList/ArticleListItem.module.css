@@ -1,0 +1,16 @@
+.body {
+    font-family: Arial;
+    background: #ffffff;
+    border: 1px solid #ce0f0f;
+    margin: 1em;
+    padding: 1em;
+}
+
+.header3 {
+    color: #c00;
+    margin: 0;
+}
+
+.time {
+    font-weight: bold;
+}
