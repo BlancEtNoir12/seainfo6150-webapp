@@ -9,9 +9,10 @@ const ArticleList = props => {
           <li key={article.slug}>
               <h3>{article.title}</h3>
               <p>{article.shortText}</p>
-              <p>{article.pubDate}
+              <time dateTime>
+                  {article.pubDate}
                   <Button info={article} />
-              </p>
+              </time>
           </li>
       ))}
     </ul>
