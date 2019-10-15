@@ -2,7 +2,7 @@ import React from 'react'
 
 const Article = () => {
     return (
-        <div style={{ margin: 20 }}>
+        <article style={{ margin: 20 }}>
             <header>
                 <h2>The Statue of Liberty's torch heads to new museum</h2>
                 <address>
@@ -25,7 +25,7 @@ const Article = () => {
 
                 <h3>The history of the Statue of Liberty</h3>
                 <p>
-                    Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of _Outstanding Universal Value_.
+                    Not only is the Statue of Liberty the symbol of New York City, she is also a UNESCO World Heritage site under the designation of <i>Outstanding Universal Value</i>.
                 </p>
                 <p>
                     Her full name is Liberty Enlightening the World, and she was designed by Frederic Auguste Bartholdi and built by Gustave Eiffel -- yes, the same guy who built Paris's Eiffel Tower.
@@ -56,13 +56,13 @@ const Article = () => {
 
                 <h3>Some facts about the Statue of Liberty</h3>
                 <ul>
-                    <li>Total overall height from the base of the pedestal foundation to the tip of the torch is 305 feet, 6 inches</li>
+                    <li>Total overall height from the base of the pedestal foundation to the tip of the torch is <b>305 feet, 6 inches</b></li>
                     <li>Height of the Statue from her heel to the top of her head is 111 feet, 6 inches</li>
-                    <li>The Statue has a 35-foot waistline</li>
-                    <li>Total weight of the Statue of Liberty is 225 tons (or 450,000 pounds)</li>
+                    <li>The Statue has a <b>35-foot</b> waistline</li>
+                    <li>Total weight of the Statue of Liberty is <b>225 tons (or 450,000 pounds)</b></li>
                 </ul>
             </section>
-        </div>
+        </article>
   )
 }
 
