@@ -1,6 +1,6 @@
 .body {
     font-family: Arial;
-    background: linear-gradient(to right,#c63f43,white 180px);
+    background: linear-gradient(to right,red -20%,white 15%);
     border: 1px solid #ce0f0f;
     border-radius: 1em;
     margin: 1em;
@@ -9,9 +9,15 @@
     box-shadow: 0px 4px 4px 4px #888888;
 }
 
+.textArea {
+    text-align: left;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
 .header3 {
     color: #c00;
-    margin: 0;
 }
 
 .time {
