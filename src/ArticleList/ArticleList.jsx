@@ -7,7 +7,7 @@ const ArticleList = props => {
     return (
         <ul className={styles.body}>
             {props.articles.map(article => (
-                <li>
+                <li className={styles.list}>
                     <Item article={article}></Item>
                 </li>
             ))}
